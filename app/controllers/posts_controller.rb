@@ -37,6 +37,6 @@ def post_params(*args)
 end
 
 	def edit
-	  @post = Post.find(params[:id])
+	  	@post = Post.find(params[:id])
 	end
 end
